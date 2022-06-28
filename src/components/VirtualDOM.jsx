@@ -14,14 +14,14 @@ const VirtualDOM = () => {
   return (
     <div>
       <Header />
-      {!isClicked && <h2 onClick={clickHandler}>What is the Virual DOM?</h2>}
+      {!isClicked && <h2 onClick={clickHandler}>What is the Virtual DOM?</h2>}
       {isClicked && !showNext &&
         (<div><h2>The virtual DOM is pretty damn cool</h2>
           <p>The virtual DOM is what enables React to.... well, react so fast</p>
           <img
-            onClick={clickImage} 
+            onClick={clickImage}
             alt="this is a metoer"
-            src="/meteor.png" 
+            src="/meteor.png"
           />
         </div>)
       }
