@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Header from './Header';
 
@@ -20,7 +20,7 @@ const Tutorial = () => {
           <li>Contain at least three pages (or "views")</li>
           <li>Each page must have at least one dynamic piece of content that responds to state changes
               <li>Use useState React hook</li>
-          </li>          
+          </li>
       </ul>
       <p>Clone github.com/mike-bunce/junior-developer-program for reference</p>
       <ul class="navigation">
