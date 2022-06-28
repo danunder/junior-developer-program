@@ -22,7 +22,7 @@ const Tutorial = () => {
               <li>Use useState React hook</li>
           </li>
       </ul>
-      <p>Clone github.com/mike-bunce/junior-developer-program for reference</p>
+      <p>Clone github.com/danunder/junior-developer-program for reference</p>
       <ul class="navigation">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/JSX-is-cool">JSX is cool</Link></li>
